@@ -9,4 +9,4 @@ const compose = (...fns) => value => fns.reduceRight((currentValue, currentFunct
 
 const multiCompose = (...fns) => fns.reduceRight((currentFunction, nextFunction) => (...args) => nextFunction(currentFunction(...args)));
 
-export { compose, multiCompose };
+module.exports = { compose, multiCompose };

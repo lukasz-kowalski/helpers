@@ -16,4 +16,4 @@ const cloneObject = object => {
   return clone; // return deep cloned object
 }
 
-export default cloneObject;
+module.exports = cloneObject;

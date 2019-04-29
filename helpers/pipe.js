@@ -9,4 +9,4 @@ const pipe = (...fns) => value => fns.reduce((currentValue, currentFunction) => 
 
 const multiPipe = (...fns) => fns.reduce((currentFunction, nextFunction) => (...args) => nextFunction(currentFunction(...args)));
 
-export { pipe, multiPipe };
+module.exports = { pipe, multiPipe };

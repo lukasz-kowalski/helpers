@@ -21,4 +21,4 @@ const memoization = fn => {
   }
 };
 
-export default memoization;
+module.exports = memoization;

@@ -1,0 +1,23 @@
+{
+  "name": "helpers",
+  "version": "1.0.0",
+  "description": "helper functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukasz-kowalski/helpers.git"
+  },
+  "author": "Łukasz Kowalski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lukasz-kowalski/helpers/issues"
+  },
+  "homepage": "https://github.com/lukasz-kowalski/helpers#readme",
+  "devDependencies": {
+    "jest": "^24.7.1"
+  }
+}
